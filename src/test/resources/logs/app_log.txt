@@ -1,0 +1,2 @@
+INFO    2020-12-23 19:55:09,056 [main] baseTest.TestBase  - Appium server started
+INFO    2020-12-23 19:55:09,057 [main] baseTest.TestBase  - Android_Mevero.properties properties file loaded !!!

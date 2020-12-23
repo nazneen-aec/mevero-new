@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testCases.SignIn">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="setUp"/>
+          <include name="ValidaSignIn"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testCases.SignIn -->
+      <class name="testCases.A_UnorganiseFeedTest">
+        <methods>
+          <include name="ValidateGetStartedButton"/>
+          <include name="setUp"/>
+          <include name="ValidateNextButton1"/>
+          <include name="VerifypageTitle"/>
+          <include name="ValidateTermConditionButton"/>
+          <include name="init"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- testCases.A_UnorganiseFeedTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

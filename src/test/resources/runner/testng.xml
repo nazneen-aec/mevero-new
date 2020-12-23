@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+            <run>
+                <include name ="B"/>
+            </run>
+        </groups>
+    <test thread-count="5" name="A_UnorganiseFeedTest">
+		<classes>
+			<class name="testCases.A_UnorganiseFeedTest" />
+			
+		</classes>
+	</test> <!--Test -->
+	<test thread-count="5" name="SignIn">
+		<classes>
+			
+			<class name="testcases.SignIn" />
+		</classes>
+	</test> <!--Test -->
+
+	
+</suite> <!-- Suite -->
+
+
+	
+	
