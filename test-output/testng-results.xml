@@ -1,41 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="72007" started-at="2020-12-23T19:43:26 IST" finished-at="2020-12-23T19:44:38 IST">
+  <suite name="Suite" duration-ms="70197" started-at="2021-01-04T23:11:36 IST" finished-at="2021-01-04T23:12:46 IST">
     <groups>
-      <group name="A">
-        <method signature="A_UnorganiseFeedTest.ValidateGetStartedButton()[pri:2, instance:testCases.A_UnorganiseFeedTest@10d59286]" name="ValidateGetStartedButton" class="testCases.A_UnorganiseFeedTest"/>
-        <method signature="A_UnorganiseFeedTest.ValidateNextButton1()[pri:1, instance:testCases.A_UnorganiseFeedTest@10d59286]" name="ValidateNextButton1" class="testCases.A_UnorganiseFeedTest"/>
-        <method signature="A_UnorganiseFeedTest.ValidateTermConditionButton()[pri:3, instance:testCases.A_UnorganiseFeedTest@10d59286]" name="ValidateTermConditionButton" class="testCases.A_UnorganiseFeedTest"/>
-        <method signature="A_UnorganiseFeedTest.VerifypageTitle()[pri:4, instance:testCases.A_UnorganiseFeedTest@10d59286]" name="VerifypageTitle" class="testCases.A_UnorganiseFeedTest"/>
-      </group> <!-- A -->
-      <group name="B">
-        <method signature="SignIn.ValidaSignIn()[pri:0, instance:testCases.SignIn@fe18270]" name="ValidaSignIn" class="testCases.SignIn"/>
-      </group> <!-- B -->
     </groups>
-    <test name="Default test" duration-ms="72007" started-at="2020-12-23T19:43:26 IST" finished-at="2020-12-23T19:44:38 IST">
-      <class name="testCases.SignIn">
-        <test-method status="PASS" signature="init()[pri:0, instance:testCases.SignIn@fe18270]" name="init" is-config="true" duration-ms="17069" started-at="2020-12-23T19:43:48 IST" finished-at="2020-12-23T19:44:05 IST">
+    <test name="SignUp" duration-ms="70197" started-at="2021-01-04T23:11:36 IST" finished-at="2021-01-04T23:12:46 IST">
+      <class name="testCases.SignUpTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:testCases.SignUpTest@5891e32e]" name="init" is-config="true" duration-ms="19361" started-at="2021-01-04T23:11:36 IST" finished-at="2021-01-04T23:11:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SignIn@fe18270]" name="setUp" is-config="true" duration-ms="1" started-at="2020-12-23T19:44:24 IST" finished-at="2020-12-23T19:44:24 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SignUpTest@5891e32e]" name="setUp" is-config="true" duration-ms="0" started-at="2021-01-04T23:11:55 IST" finished-at="2021-01-04T23:11:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="ValidaSignIn()[pri:0, instance:testCases.SignIn@fe18270]" name="ValidaSignIn" duration-ms="6450" depends-on-groups="A" started-at="2020-12-23T19:44:24 IST" finished-at="2020-12-23T19:44:30 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="PASS" signature="validateSplashScreen1()[pri:1, instance:testCases.SignUpTest@5891e32e]" name="validateSplashScreen1" duration-ms="4913" started-at="2021-01-04T23:11:55 IST" finished-at="2021-01-04T23:12:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSplashScreen1 -->
+        <test-method status="PASS" signature="validateSplashScreen2()[pri:2, instance:testCases.SignUpTest@5891e32e]" name="validateSplashScreen2" duration-ms="853" started-at="2021-01-04T23:12:00 IST" finished-at="2021-01-04T23:12:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSplashScreen2 -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SignUpTest@5891e32e]" name="setUp" is-config="true" duration-ms="0" started-at="2021-01-04T23:12:00 IST" finished-at="2021-01-04T23:12:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SignUpTest@5891e32e]" name="setUp" is-config="true" duration-ms="1" started-at="2021-01-04T23:12:01 IST" finished-at="2021-01-04T23:12:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateSplashScreen3()[pri:3, instance:testCases.SignUpTest@5891e32e]" name="validateSplashScreen3" duration-ms="5260" started-at="2021-01-04T23:12:01 IST" finished-at="2021-01-04T23:12:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSplashScreen3 -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SignUpTest@5891e32e]" name="setUp" is-config="true" duration-ms="1" started-at="2021-01-04T23:12:06 IST" finished-at="2021-01-04T23:12:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifypageTitle()[pri:4, instance:testCases.SignUpTest@5891e32e]" name="VerifypageTitle" duration-ms="11615" started-at="2021-01-04T23:12:06 IST" finished-at="2021-01-04T23:12:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifypageTitle -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SignUpTest@5891e32e]" name="setUp" is-config="true" duration-ms="1" started-at="2021-01-04T23:12:18 IST" finished-at="2021-01-04T23:12:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySignUpButton()[pri:5, instance:testCases.SignUpTest@5891e32e]" name="verifySignUpButton" duration-ms="1582" started-at="2021-01-04T23:12:18 IST" finished-at="2021-01-04T23:12:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpButton -->
+        <test-method status="PASS" signature="verifySignUpPage()[pri:6, instance:testCases.SignUpTest@5891e32e]" name="verifySignUpPage" duration-ms="21616" started-at="2021-01-04T23:12:20 IST" finished-at="2021-01-04T23:12:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPage -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SignUpTest@5891e32e]" name="setUp" is-config="true" duration-ms="0" started-at="2021-01-04T23:12:20 IST" finished-at="2021-01-04T23:12:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.SignUpTest@5891e32e]" name="setUp" is-config="true" duration-ms="2" started-at="2021-01-04T23:12:41 IST" finished-at="2021-01-04T23:12:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="fetchEmailList()[pri:7, instance:testCases.SignUpTest@5891e32e]" name="fetchEmailList" duration-ms="4926" started-at="2021-01-04T23:12:41 IST" finished-at="2021-01-04T23:12:46 IST">
+          <exception class="org.json.JSONException">
             <message>
-              <![CDATA[Can't locate an element by this strategy: By.chained({By.id: appIntro_tvNextPage})]]>
+              <![CDATA[A JSONArray text must start with '[' at 1 [character 2 line 1]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: appIntro_tvNextPage})
-at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
-at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
-at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(<generated>)
-at screens.AppIntroNextPage.clickOnNextButton(AppIntroNextPage.java:28)
-at testCases.SignIn.ValidaSignIn(SignIn.java:43)
+              <![CDATA[org.json.JSONException: A JSONArray text must start with '[' at 1 [character 2 line 1]
+at org.json.JSONTokener.syntaxError(JSONTokener.java:433)
+at org.json.JSONArray.<init>(JSONArray.java:106)
+at org.json.JSONArray.<init>(JSONArray.java:145)
+at screens.SignUpPage.fetchEmailList(SignUpPage.java:130)
+at testCases.SignUpTest.fetchEmailList(SignUpTest.java:108)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -64,85 +103,17 @@ at org.testng.TestNG.run(TestNG.java:1037)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@7e5d9a50 (tried for 1 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
-at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
-... 32 more
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: appIntro_tvNextPage})
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-0NV2K68R', ip: '192.168.225.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: AndroidDriver
-at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
-at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
-at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-... 34 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.json.JSONException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidaSignIn -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testCases.SignIn@fe18270]" name="quitDriver" is-config="true" duration-ms="3599" started-at="2020-12-23T19:44:34 IST" finished-at="2020-12-23T19:44:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- testCases.SignIn -->
-      <class name="testCases.A_UnorganiseFeedTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:testCases.A_UnorganiseFeedTest@10d59286]" name="init" is-config="true" duration-ms="21976" started-at="2020-12-23T19:43:26 IST" finished-at="2020-12-23T19:43:48 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.A_UnorganiseFeedTest@10d59286]" name="setUp" is-config="true" duration-ms="0" started-at="2020-12-23T19:44:05 IST" finished-at="2020-12-23T19:44:05 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidateNextButton1()[pri:1, instance:testCases.A_UnorganiseFeedTest@10d59286]" name="ValidateNextButton1" duration-ms="5167" started-at="2020-12-23T19:44:05 IST" finished-at="2020-12-23T19:44:10 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateNextButton1 -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.A_UnorganiseFeedTest@10d59286]" name="setUp" is-config="true" duration-ms="0" started-at="2020-12-23T19:44:10 IST" finished-at="2020-12-23T19:44:10 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidateGetStartedButton()[pri:2, instance:testCases.A_UnorganiseFeedTest@10d59286]" name="ValidateGetStartedButton" duration-ms="867" started-at="2020-12-23T19:44:10 IST" finished-at="2020-12-23T19:44:11 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateGetStartedButton -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.A_UnorganiseFeedTest@10d59286]" name="setUp" is-config="true" duration-ms="0" started-at="2020-12-23T19:44:11 IST" finished-at="2020-12-23T19:44:11 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidateTermConditionButton()[pri:3, instance:testCases.A_UnorganiseFeedTest@10d59286]" name="ValidateTermConditionButton" duration-ms="1414" started-at="2020-12-23T19:44:11 IST" finished-at="2020-12-23T19:44:12 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateTermConditionButton -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.A_UnorganiseFeedTest@10d59286]" name="setUp" is-config="true" duration-ms="1" started-at="2020-12-23T19:44:13 IST" finished-at="2020-12-23T19:44:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifypageTitle()[pri:4, instance:testCases.A_UnorganiseFeedTest@10d59286]" name="VerifypageTitle" duration-ms="11410" started-at="2020-12-23T19:44:13 IST" finished-at="2020-12-23T19:44:24 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifypageTitle -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testCases.A_UnorganiseFeedTest@10d59286]" name="quitDriver" is-config="true" duration-ms="3879" started-at="2020-12-23T19:44:30 IST" finished-at="2020-12-23T19:44:34 IST">
+        </test-method> <!-- fetchEmailList -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testCases.SignUpTest@5891e32e]" name="quitDriver" is-config="true" duration-ms="0" started-at="2021-01-04T23:12:46 IST" finished-at="2021-01-04T23:12:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-      </class> <!-- testCases.A_UnorganiseFeedTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testCases.SignUpTest -->
+    </test> <!-- SignUp -->
+  </suite> <!-- Suite -->
 </testng-results>

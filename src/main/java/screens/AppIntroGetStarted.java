@@ -30,11 +30,6 @@ public class AppIntroGetStarted extends ScreenBase {
 		GetStartedButton.click();
 		
 	}
-	public void termCondition_btnAccept()
-	{
-		termCondition_btnAccept.click();
-		
-	}
 	
 	
 }

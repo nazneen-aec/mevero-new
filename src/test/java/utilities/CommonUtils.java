@@ -36,6 +36,11 @@ public class CommonUtils {
 	private static String APP;
 	private static Properties prop = new Properties();
 	private static FileInputStream fis;
+	
+	// App2 capabilities
+	 String settingsAppPackageName="com.android.settings";
+	 String settingsAppActivityName="com.android.settings.Settings";
+
 
 	public static void loadAndriodConfProp(String loadPropertyFile) {
 
@@ -60,7 +65,7 @@ public class CommonUtils {
 		
 		DEVICE_NAME = prop.getProperty("device.name");
 		//APP_PATH = prop.getProperty("application.path");
-		//BROWSER_NAME = prop.getProperty("base.pgk");
+		BROWSER_NAME = prop.getProperty("browser.name");
 		//PLATFORM_NAME = prop.getProperty("platform.name");
 		//PLATFORM_VERSION = prop.getProperty("platform.version");
 		
@@ -83,7 +88,7 @@ public class CommonUtils {
 		capabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, BASE_PKG);
 		capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, APP_ACTIVITY);
 		//capabilities.setCapability(MobileCapabilityType.APP, "C://Users//ce//eclipse-workspace//Mevero1//src//test//resources//properties//MEVERO_22FIx1_QA_02Dec2020_1535_v5.5.1.apk");
-		//capabilities.setCapability("–session-override",true);
+		//capabilities.setCapability("ï¿½session-override",true);
 		//driver.manage().timeouts().implicitlyWait(CommonUtils.IMPLICIT_WAIT_TIME, TimeUnit.SECONDS);
 		//System.out.println(APP_PATH);
 	}

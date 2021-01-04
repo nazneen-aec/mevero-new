@@ -1,25 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-	<groups>
-            <run>
-                <include name ="B"/>
-            </run>
-        </groups>
-    <test thread-count="5" name="A_UnorganiseFeedTest">
+<!--
+	<test thread-count="5" name="SplashScreen">
 		<classes>
-			<class name="testCases.A_UnorganiseFeedTest" />
-			
+			<class name="testCases.SplashScreenTest" />
 		</classes>
-	</test> <!--Test -->
+	</test> 
+
+	<test thread-count="5" name="HomePage">
+		<classes>
+			<class name="testCases.HomePageTest" />
+		</classes>
+	</test>  
+
+-->
+	<test thread-count="5" name="SignUp">
+		<classes>
+			<class name="testCases.SignUpTest" />
+		</classes>
+	</test> 
+	
+
+<!--
 	<test thread-count="5" name="SignIn">
 		<classes>
-			
-			<class name="testcases.SignIn" />
+			<class name="testCases.SignInTest" />
 		</classes>
-	</test> <!--Test -->
+	</test> 
 
-	
+-->
 </suite> <!-- Suite -->
 
 

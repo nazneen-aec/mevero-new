@@ -1,0 +1,11 @@
+screens\BasePage.class
+screens\Page.class
+screens\AppIntroNextPage.class
+screens\MyprofilePage.class
+base\ScreenBase.class
+screens\AppIntroGetStarted.class
+screens\SignUpPage.class
+screens\UnorganiseFeed.class
+screens\OrganiseFeed.class
+screens\TermConditionAccept.class
+screens\SignInPage.class

@@ -14,7 +14,7 @@ import utilities.CommonUtils;
 
 public class TestBase {
 
-	public AppiumDriver<MobileElement> driver;
+	public static  AppiumDriver<MobileElement> driver;
 	public static String loadPropertyFile = "Android_Mevero.properties";
 	public static Logger log = Logger.getLogger(TestBase.class);
 	/*

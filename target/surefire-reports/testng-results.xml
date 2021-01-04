@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="49130" started-at="2020-12-23T18:08:56Z" finished-at="2020-12-23T18:09:45Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="49130" started-at="2020-12-23T18:08:56Z" finished-at="2020-12-23T18:09:45Z">
+      <class name="testCases.A_UnorganiseFeedTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:testCases.A_UnorganiseFeedTest@6d78f375]" name="init" is-config="true" duration-ms="22593" started-at="2020-12-23T18:08:56Z" finished-at="2020-12-23T18:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="ValidateNextButton1()[pri:1, instance:testCases.A_UnorganiseFeedTest@6d78f375]" name="ValidateNextButton1" duration-ms="4970" started-at="2020-12-23T18:09:19Z" finished-at="2020-12-23T18:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateNextButton1 -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.A_UnorganiseFeedTest@6d78f375]" name="setUp" is-config="true" duration-ms="0" started-at="2020-12-23T18:09:19Z" finished-at="2020-12-23T18:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateGetStartedButton()[pri:2, instance:testCases.A_UnorganiseFeedTest@6d78f375]" name="ValidateGetStartedButton" duration-ms="985" started-at="2020-12-23T18:09:24Z" finished-at="2020-12-23T18:09:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateGetStartedButton -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.A_UnorganiseFeedTest@6d78f375]" name="setUp" is-config="true" duration-ms="0" started-at="2020-12-23T18:09:24Z" finished-at="2020-12-23T18:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.A_UnorganiseFeedTest@6d78f375]" name="setUp" is-config="true" duration-ms="1" started-at="2020-12-23T18:09:25Z" finished-at="2020-12-23T18:09:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateTermConditionButton()[pri:3, instance:testCases.A_UnorganiseFeedTest@6d78f375]" name="ValidateTermConditionButton" duration-ms="5245" started-at="2020-12-23T18:09:25Z" finished-at="2020-12-23T18:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTermConditionButton -->
+        <test-method status="PASS" signature="VerifypageTitle()[pri:4, instance:testCases.A_UnorganiseFeedTest@6d78f375]" name="VerifypageTitle" duration-ms="11414" started-at="2020-12-23T18:09:30Z" finished-at="2020-12-23T18:09:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifypageTitle -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.A_UnorganiseFeedTest@6d78f375]" name="setUp" is-config="true" duration-ms="0" started-at="2020-12-23T18:09:30Z" finished-at="2020-12-23T18:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testCases.A_UnorganiseFeedTest@6d78f375]" name="quitDriver" is-config="true" duration-ms="3892" started-at="2020-12-23T18:09:41Z" finished-at="2020-12-23T18:09:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- testCases.A_UnorganiseFeedTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

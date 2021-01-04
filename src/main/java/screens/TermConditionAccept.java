@@ -35,11 +35,7 @@ public WebElement navigationmenu;
 		
 	}
 	
-public void getUnorganiseFeed() {
-		
-		navigationmenu.click();
-	}
-	
+
 	
 }
 
